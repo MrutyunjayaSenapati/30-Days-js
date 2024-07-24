@@ -1,4 +1,4 @@
-var a=23;
+var a=25;
 console.log("initialValue",a);
 let b="xyz";
 console.log(b);
