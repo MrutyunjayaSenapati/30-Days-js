@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10</title>
+    <style>
+        #task2{
+            width: 100px;
+            display: block;
+        }
+        #container{
+            display: flex;
+            gap: 10px;
+        }
+        #box1{
+            height: 30px;
+            width: 30px;
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #box2{
+            height: 30px;
+            width: 30px;
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #box3{
+            height: 30px;
+            width: 30px;
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <p id="task1" onclick="taskOne()">Its day 10</p>
+    <button onclick="taskOne()">change task1</button><br><br>
+
+    <img id="task2" ondblclick="taskTwo()" src="indianCurry.jpg" alt="Curry">
+    <p id="Event" onmousemove="changeBgColor()" onmouseout="changeBgColorr()">This is Mouse Event</p>
+    <input  onkeydown="pressKey()"type="text" >
+    <p id="key"></p>
+    <input type="text" id="inputField" onkeyup="keyUpFun()">
+
+    <p id="display"></p>
+    <form id="myForm">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit">Submit</button>
+      </form>
+      <select name="" id="myId" onchange="myChange()">
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Ferrari">Ferrari</option>
+      </select>
+      <p id="vehicle"></p>
+      <input type="text" id="newInput" onkeyup="myKey()" onkeydown="myKeyDown()" onkeypress="keyPressEvent()">
+      <input type="text" id="keyEvent">
+     <div id="container" >
+        <div id="box1">box1</div>
+        <div id="box2">box2</div>
+        <div id="box3">box3</div>
+     </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>
